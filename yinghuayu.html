@@ -29,11 +29,23 @@ html, body{
   margin: 0;
   padding: 0;
   background-color: #000000;
-}</style>
+}
+#baby {
+	position: relative;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width: 520px;
+	color: rgba(0,0,0,.5);
+	text-align: center;
+	background: transparent;
+}
+</style>
 </head>
 <body>
-<div id="jsi-cherry-container" class="container"></div>
-
+<div id="jsi-cherry-container" class="container">
+  <div id="baby"><h1>樱花雨送给我的宝贝</h1></div>
+  </div>
 <script>
 var RENDERER = {
   INIT_CHERRY_BLOSSOM_COUNT : 30,
